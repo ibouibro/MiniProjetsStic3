@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteRule ^AjouterACtrl$  ../ExamenPhp/controller/abonnement/AjouterACtrl.php
+RewriteRule ^modifierACtrl$   ../ExamenPhp/controller/abonnement/modifierACtrl.php
+RewriteRule ^modifierFCtrl$   ../ExamenPhp/controller/facture/modifierFCtrl.php
+RewriteRule ^ajouterFCtrl$   ../ExamenPhp/controller/facture/ajouterFCtrl.php
+RewriteRule ^supprimerACtrl$   ../ExamenPhp/controller/abonnement/supprimerACtrl.php
+RewriteRule ^supprimerFCtrl$   ../ExamenPhp/controller/facture/supprimerFCtrl.php
+RewriteRule ^contrats$   ../ExamenPhp/view/abonnement/contrats.php
+
+RewriteRule ^abonnement$  ../ExamenPhp/view/abonnement/abonnementView.php
